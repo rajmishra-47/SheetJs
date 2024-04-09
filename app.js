@@ -2,7 +2,7 @@
 const XLSX = require('xlsx');
 
 const workbook = XLSX.readFile('test-1.xlsx');
-const worksheet = workbook.Sheets[workbook.SheetNames[0]];
+const  worksheet = workbook.Sheets[workbook.SheetNames[0]];
 
 const options = {
   raw: false, 
